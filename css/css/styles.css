@@ -1,0 +1,21 @@
+header {
+    height: 730px;
+    background-color: #030712;
+}
+
+.header_row {
+    display: flex;
+}
+
+.header_button {
+    width: 136px;
+    height: 36px;
+    padding: 6px 16px 6px 16px;
+    gap: 8px;
+    border-radius: 12px;
+    opacity: 0px;
+}
+
+.header_row ul {
+    list-style-type: none;
+}
