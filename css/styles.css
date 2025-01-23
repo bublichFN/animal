@@ -1,5 +1,4 @@
 header {
-    height: 730px;
     background-color: #030712;
 }
 
@@ -125,6 +124,7 @@ header {
     padding-top: 48px;
     padding-left: 112px;
     gap: 4px;
+    padding-bottom: 106px;
 }
 
 .my_photo {
@@ -158,6 +158,9 @@ header {
 }
 
 @media (max-width: 800px) {
+    .header_main {
+        flex-direction: column-reverse;
+    }
     .header_navigation {
         display: none;
     }
@@ -169,6 +172,10 @@ header {
 
     .logo {
         padding-left: 16px;
+    }
+
+    .socials {
+        padding-bottom: 64px;
     }
 
 }
