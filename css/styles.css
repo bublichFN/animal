@@ -4,18 +4,171 @@ header {
 }
 
 .header_row {
+    justify-content: space-between;
     display: flex;
+    color: #F9FAFB;
+    font-family: Inter;
+    padding-top: 16px;
 }
 
-.header_button {
+.logo {
+    padding-left: 112px;
+}
+
+.header_row p {
+    color: #1F2937;
+    padding-right: 24px;
+}
+
+.header_button1 {
+    padding-right: 16px;
+}
+
+.header_button2 {
     width: 136px;
     height: 36px;
     padding: 6px 16px 6px 16px;
     gap: 8px;
     border-radius: 12px;
     opacity: 0px;
+    background-color: #F9FAFB;
+    color: #111827;
 }
 
 .header_row ul {
-    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    padding-right: 24px;
+}
+
+.header_navigation {
+    display: flex;
+    padding-right: 112px;
+    align-items: center;
+}
+
+.menu_icon {
+    display: none;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_main_text {
+    padding-left: 112px;
+    padding-top: 122px;
+}
+
+.header_main_text h1 {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #F9FAFB;
+}
+
+.header_main_text p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #F9FAFB;
+}
+
+.geo {
+    padding-left: 112px;
+    padding-top: 48px;
+}
+
+.russia {
+    display: flex;
+}
+
+.russia p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #F9FAFB;
+    margin-left: 8px;
+}
+
+.new_projects {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.new_projects p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    color: #F9FAFB;
+    margin-left: 8px;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    padding-top: 48px;
+    padding-left: 112px;
+    gap: 4px;
+}
+
+.my_photo {
+    width: 280px;
+    height: 320px;
+    margin-right: 152px;
+}
+
+.main {
+    background-color: #111827;
+    height: 962px;
+}
+
+.about_me {
+    width: 105px;
+    height: 28px;
+    padding: 4px 20px 4px 20px;
+    border-radius: 12px;
+    color: #D1D5DB;
+    font-family: Inter;
+    background-color: #374151;
+}
+
+.about_me h2 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    height: 100px;
+}
+
+@media (max-width: 800px) {
+    .header_navigation {
+        display: none;
+    }
+
+    .menu_icon {
+        display: block;
+        padding-right: 16px;
+    }
+
+    .logo {
+        padding-left: 16px;
+    }
+
 }
