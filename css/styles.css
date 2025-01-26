@@ -224,9 +224,26 @@ header {
     border-radius: 12px;
     background-color: #374151;
     font-size: 14px;
-    text-align: center;
+    padding: 4px 20px 4px 20px;
+
     height: 28px;
     width: 115px;
+}
+
+.experience h2 {
+
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+
+    color: #D1D5DB;
+
+
 }
 
 .exp p {
