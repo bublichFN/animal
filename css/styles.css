@@ -203,6 +203,20 @@ header {
     border-radius: 12px;
 }
 
+.skills_items {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #D1D5DB;
+    display: flex;
+    margin-left: 100px;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 1216px;
+}
+
 .technologies p {
     font-size: 20px;
     padding-top: 16px;
@@ -225,25 +239,17 @@ header {
     background-color: #374151;
     font-size: 14px;
     padding: 4px 20px 4px 20px;
-
     height: 28px;
     width: 115px;
 }
 
 .experience h2 {
-
-
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-
-
     color: #D1D5DB;
-
-
 }
 
 .exp p {
