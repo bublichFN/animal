@@ -211,10 +211,32 @@ header {
     text-align: left;
     color: #D1D5DB;
     display: flex;
-    margin-left: 100px;
-    gap: 100px;
+    padding-left: 100px;
+    gap: 86px;
     flex-wrap: wrap;
     width: 1216px;
+}
+
+.js {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.js p {
+
+    /* Body1/Normal - Dektop */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+
+    color: #D1D5DB;
+
+
 }
 
 .technologies p {
