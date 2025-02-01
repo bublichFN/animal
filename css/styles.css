@@ -198,7 +198,7 @@ header {
 .skills {
     background-color: #374151;
     width: 75px;
-    height: 28px;
+    height: 28px;   
     padding: 4px 20px 4px 20px;
     border-radius: 12px;
 }
@@ -209,10 +209,8 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    text-align: left;
     color: #D1D5DB;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 1280px;
 
     gap: 86px;
     flex-wrap: wrap;
