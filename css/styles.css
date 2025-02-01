@@ -217,26 +217,20 @@ header {
     width: 1216px;
 }
 
-.js {
+.skills_items div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.js p {
-
-    /* Body1/Normal - Dektop */
+.skills_items p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 156% */
-
     color: #D1D5DB;
-
-
 }
 
 .technologies p {
