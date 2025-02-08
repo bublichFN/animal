@@ -244,7 +244,6 @@ header {
 }
 
 .main_experience {
-    height: 560px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -257,6 +256,7 @@ header {
     color: #D1D5DB;
     flex-direction: column;
     align-items: center;
+    padding-top: 96px;
 }
 
 .experience {
@@ -287,17 +287,27 @@ header {
 }
 
 .main_info {
+    display: flex;
     margin-top: 48px;
     background-color: #1F2937;
     width: 896px;
-    height: 288px;
-    padding: 32px;
     border-radius: 12px;
+    justify-content: space-around;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.main_info img {
+    height: 28px;
 }
 
-.sec1 {
-    display: flex;
-    justify-content: space-between;
+.main_info ul {
+    padding-top: 16px;
+    width: 384px;
+    padding-left: 20px;
+}
+
+.main_info li {
+    list-style-type: circle;
 }
 
 .main_text_sec1 {
@@ -306,10 +316,6 @@ header {
     font-size: 16px;
     line-height: 24px;
     color: #D1D5DB;
-    padding-top: 5px;
-    margin-top: 16px;
-    list-style-type: circle;
-    text-align: left;
 }
 
 .developer {
