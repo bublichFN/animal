@@ -162,6 +162,11 @@ header {
     padding-top: 96px;
 }
 
+.wrapper_skills {
+    display: flex;
+    justify-content: center;
+}
+
 .main_about_me {
     width: 100%;
     display: flex;
@@ -198,7 +203,7 @@ header {
 .skills {
     background-color: #374151;
     width: 75px;
-    height: 28px;   
+    height: 28px;
     padding: 4px 20px 4px 20px;
     border-radius: 12px;
 }
@@ -211,10 +216,10 @@ header {
     line-height: 28px;
     color: #D1D5DB;
     width: 1280px;
-
     gap: 86px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 48px;
 }
 
 .skills_items div {
@@ -240,6 +245,10 @@ header {
 
 .main_experience {
     height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .exp {
@@ -270,7 +279,56 @@ header {
 
 .exp p {
     margin-top: 16px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
 }
+
+.main_info {
+    margin-top: 48px;
+    background-color: #1F2937;
+    width: 896px;
+    height: 288px;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.sec1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_text_sec1 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D1D5DB;
+    padding-top: 5px;
+    margin-top: 16px;
+    list-style-type: circle;
+    text-align: left;
+}
+
+.developer {
+    font-family: Inter;
+    color: #F9FAFB;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.data {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9FAFB;
+}
+
+
 
 
 @media (max-width: 800px) {
