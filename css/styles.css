@@ -401,6 +401,10 @@ header {
     font-size: 16px;
 }
 
+.sect2_2 p {
+    font-size: 16px;
+}
+
 .main_project_stack {
     display: flex;
     flex-wrap: wrap;
@@ -455,9 +459,7 @@ header {
     font-size: 20px;
 }
 
-.sect2_2 p {
-    font-size: 16px;
-}
+
 
 .sect2_2 img {
     width: 36px;
