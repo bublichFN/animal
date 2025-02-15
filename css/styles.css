@@ -413,25 +413,8 @@ header {
     height: 36px;
 }
 
-.project_stack_item {
-    height: 28px;
-    padding-top: 4px;
-    padding-right: 20px;
-    padding-bottom: 4px;
-    padding-left: 20px;
-    border-radius: 12px;
-    background-color: #374151;
-}
-
-.project_stack_item p {
-    font-family: Inter;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #D1D5DB;
-}
-
 .sect2 {
+    flex-direction: row-reverse;
     padding-top: 48px;
     width: 1152px;
     height: 480px;
@@ -441,7 +424,7 @@ header {
 }
 
 .sect2_1 {
-    border-radius: 12px 0px 0px 12px;
+    border-radius: 0px 12px 12px 0px;
     display: flex;
     justify-content: center;
     background-color: #374151;
@@ -461,7 +444,7 @@ header {
     flex-direction: column;
     gap: 24px;
     padding-left: 48px;
-    border-radius: 0px 12px 12px 0px;
+    border-radius: 12px 0px 0px 12px;
     color: #F9FAFB;
     width: 576px;
     height: 480px;
@@ -479,6 +462,111 @@ header {
 .sect2_2 img {
     width: 36px;
     height: 36px;
+}
+
+.sect3 {
+    padding-top: 96px;
+    width: 1152px;
+    height: 480px;
+    box-shadow: 0px 25px 25px 0px #00000026;
+    display: flex;
+    font-family: Inter
+}
+
+.sect3_1 {
+    border-radius: 12px 0px 0px 12px;
+    display: flex;
+    justify-content: center;
+    background-color: #374151;
+    width: 576px;
+    height: 480px;
+}
+
+.sect3_1 img {
+    margin-top: 48px;
+    height: 384px;
+    width: 480px;
+}
+
+.sect3_2 {
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 48px;
+    border-radius: 0px 12px 12px 0px;
+    color: #F9FAFB;
+    width: 576px;
+    height: 480px;
+    background-color: #1F2937;
+}
+
+.sect3_2 h2 {
+    font-size: 20px;
+}
+
+.sect3_2 p {
+    font-size: 16px;
+}
+
+.sect3_2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.project_stack_item {
+    height: 28px;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    border-radius: 12px;
+    background-color: #374151;
+}
+
+.project_stack_item p {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D1D5DB;
+}
+
+.Testimonials {
+    font-family: Inter;
+    color: #D1D5DB;
+    height: 740px;
+    background-color: #111827;
+}
+
+.test {
+    height: 28px;
+    width: 125;
+    height: 28;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    border-radius: 12px;
+    background-color: #374151;
+    font-size: 14px;
+}
+
+.Testimonials p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.section1 {
+    padding-left: 112px;
+    width: 373px;
+    height: 428px;
+    min-width: 300px;
+    gap: 24px;
+    border-radius: 12px;
+    padding: 48px;
+    background-color: #1F2937;
 }
 
 @media (max-width: 800px) {
