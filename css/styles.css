@@ -560,6 +560,14 @@ header {
     padding-top: 16px;
 }
 
+.sections {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+
 .section1 {
     padding-left: 112px;
     width: 373px;
@@ -571,7 +579,7 @@ header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .img_section1 {
@@ -587,14 +595,14 @@ header {
 
 .job {
     font-family: Inter;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0%;
-    text-align: left;
 }
 
 .John_Doe {
+    padding-top: 24px;
     font-family: Inter;
     font-weight: 600;
     font-size: 20px;
@@ -602,10 +610,21 @@ header {
 }
 
 .founders {
+    padding-top: 4px;
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+}
+
+footer {
+    height: 560px;
+    background-color: #030712;
+}
+
+.footer_main {
+    font-family: Inter;
+    color: #D1D5DB;
 }
 
 @media (max-width: 800px) {
