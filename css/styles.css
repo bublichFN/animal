@@ -357,6 +357,7 @@ header {
 }
 
 .sect1 {
+    padding-top: 48px;
     width: 1152px;
     height: 480px;
     box-shadow: 0px 25px 25px 0px #00000026;
@@ -419,7 +420,7 @@ header {
 
 .sect2 {
     flex-direction: row-reverse;
-    padding-top: 48px;
+    padding-top: 96px;
     width: 1152px;
     height: 480px;
     box-shadow: 0px 25px 25px 0px #00000026;
@@ -460,14 +461,13 @@ header {
 }
 
 
-
 .sect2_2 img {
     width: 36px;
     height: 36px;
 }
 
 .sect3 {
-    padding-top: 96px;
+    padding-top: 144px;
     width: 1152px;
     height: 480px;
     box-shadow: 0px 25px 25px 0px #00000026;
@@ -554,7 +554,7 @@ header {
     font-size: 14px;
 }
 
-.Testimonials p {
+.Testimonials h3 {
     font-size: 20px;
     text-align: center;
     padding-top: 16px;
@@ -569,6 +569,32 @@ header {
     border-radius: 12px;
     padding: 48px;
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.job {
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.John_Doe {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.founders {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 @media (max-width: 800px) {
