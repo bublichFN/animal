@@ -699,4 +699,11 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+    .skills_items {
+        gap: 48px;
+        justify-content: stretch;
+        padding: 16px;
+
+    }
 }
+
