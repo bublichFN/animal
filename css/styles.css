@@ -630,6 +630,29 @@ footer {
     align-items: center;
 }
 
+.platformss {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper h2 {
+    height: 28px;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    border-radius: 12px;
+    background-color: #374151;
+}
+
+.what {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     .header_main {
         flex-direction: column-reverse;
