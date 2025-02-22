@@ -138,7 +138,6 @@ header {
 }
 
 .about_me {
-    width: 105px;
     height: 28px;
     padding: 4px 20px 4px 20px;
     border-radius: 12px;
@@ -202,7 +201,6 @@ header {
 
 .skills {
     background-color: #374151;
-    width: 75px;
     height: 28px;
     padding: 4px 20px 4px 20px;
     border-radius: 12px;
@@ -543,8 +541,7 @@ header {
 
 .test {
     height: 28px;
-    width: 125;
-    height: 28;
+
     padding-top: 4px;
     padding-right: 20px;
     padding-bottom: 4px;
@@ -636,13 +633,10 @@ footer {
 }
 
 .wrapper h2 {
-    height: 28px;
-    padding-top: 4px;
     padding-right: 20px;
     padding-bottom: 4px;
     padding-left: 20px;
-    border-radius: 12px;
-    background-color: #374151;
+
 }
 
 .what {
