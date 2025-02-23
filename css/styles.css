@@ -217,6 +217,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 48px;
+    padding-bottom: 96px;
 }
 
 .skills_items div {
@@ -462,9 +463,9 @@ header {
 }
 
 .sect3 {
+    padding-bottom: 96px;
     padding-top: 144px;
     width: 1152px;
-    height: 480px;
     box-shadow: 0px 25px 25px 0px #00000026;
     display: flex;
     font-family: Inter
@@ -624,7 +625,12 @@ footer {
     align-items: center;
 }
 
+.platforms {
+    padding-top: 48px;
+}
+
 .platformss {
+    padding-top: 8px;
     display: flex;
     align-items: center;
 }
@@ -637,11 +643,50 @@ footer {
 }
 
 .what {
+    padding-top: 16px;
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+}
+
+.get_in_touch {
+    width: 122;
+    height: 28;
+    padding-top: 4px;
+    padding-right: 20px;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    border-radius: 12px;
+    background-color: #374151;
+}
+
+.email {
+    padding-top: 50px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #F9FAFB;
+}
+
+.phone_number {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #F9FAFB;
 }
 
 @media (max-width: 800px) {
@@ -699,4 +744,12 @@ footer {
         flex-direction: column;
         justify-content: center;
     }
+
+    .technologies p {
+        font-size: 18px;
+        text-align: center;
+        padding: 16px;
+    }
+
+
 }
