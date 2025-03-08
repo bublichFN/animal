@@ -801,8 +801,9 @@ footer {
     .main_info {
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px;
-        flex-wrap: wrap;
+        gap: 16px;
+        padding: 32px;
+        width: 343px;
     }
 
 
@@ -820,17 +821,21 @@ footer {
         display: block;
     }
 
-    .main_info {
-        gap: 16px;
-        padding: 32px;
-        width: 343px;
+    .main_text_sec1 h4 {
+        font-size: 18px;
     }
+
 
     .main_text_sec1 ul {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 279px;
         gap: 4px;
+        align-items: flex-start;
+        font-style: normal;
+
     }
 
+    
 }
+
