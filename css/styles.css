@@ -800,12 +800,14 @@ footer {
 
     .main_info {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+        padding: 0px;
     }
+
 
     .main_experience_adaptive_reverse {
         flex-direction: column-reverse;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .data {
