@@ -802,10 +802,12 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
+        flex-wrap: wrap;
     }
 
 
     .main_experience_adaptive_reverse {
+        gap: 16px;
         flex-direction: column-reverse;
         align-items: flex-start;
     }
@@ -819,9 +821,16 @@ footer {
     }
 
     .main_info {
+        gap: 16px;
+        padding: 32px;
         width: 343px;
-        height: 372px;
     }
 
+    .main_text_sec1 ul {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        gap: 4px;
+    }
 
 }
