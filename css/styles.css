@@ -833,9 +833,22 @@ footer {
         gap: 4px;
         align-items: flex-start;
         font-style: normal;
-
     }
 
+    .sect1 {
+        width: auto;
+        flex-direction: column;
+    }
     
+    .sect1_1 {
+        width: auto;
+        height: auto;
+        padding: 32px;
+    }
+
+    .sect1_1 img{
+        width: 279px;
+        height: 192px;
+    }
 }
 
