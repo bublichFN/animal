@@ -837,16 +837,53 @@ footer {
 
     .sect1 {
         width: auto;
+        height: auto;
         flex-direction: column;
     }
     
-    .sect1_1 {
-        width: auto;
+    .sect1_1, .sect1_2 {
+        width: 343px;
         height: auto;
-        padding: 32px;
+        
+  
     }
 
     .sect1_1 img{
+        width: 279px;
+        height: 192px;
+    }
+
+    .sect2 {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .sect2_1, .sect2_2 {
+        width: 343px;
+        height: auto;
+        
+  
+    }
+
+    .sect2_1 img{
+        width: 279px;
+        height: 192px;
+    }
+
+    .sect3 {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .sect3_1, .sect3_2 {
+        width: 343px;
+        height: auto;        
+  
+    }
+
+    .sect3_1 img{
         width: 279px;
         height: 192px;
     }
