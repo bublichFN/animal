@@ -406,7 +406,7 @@ header {
     gap: 24px;
     padding-left: 48px;
     border-radius: 0px 12px 12px 0px;
-    color: #F9FAFB;
+    color: #D1D5DB;
     width: 576px;
     height: 480px;
     background-color: #1F2937;
@@ -468,7 +468,7 @@ header {
     gap: 24px;
     padding-left: 48px;
     border-radius: 12px 0px 0px 12px;
-    color: #F9FAFB;
+    color: #D1D5DB;
     width: 576px;
     height: 480px;
     background-color: #1F2937;
@@ -515,7 +515,7 @@ header {
     gap: 24px;
     padding-left: 48px;
     border-radius: 0px 12px 12px 0px;
-    color: #F9FAFB;
+    color: #D1D5DB;
     width: 576px;
     height: 480px;
     background-color: #1F2937;
@@ -840,17 +840,28 @@ footer {
         height: auto;
         flex-direction: column;
     }
+
+    .sect1_1, .sect2_1, .sect3_1 {
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .sect1_2, .sect2_2, .sect3_2 {
+        border-radius: 0px 0px 12px 12px;
+    }
     
     .sect1_1, .sect1_2 {
         width: 343px;
         height: auto;
-        
-  
     }
 
     .sect1_1 img{
-        width: 279px;
-        height: 192px;
+        height: auto;
+        margin-top: 0px;
+        padding: 32px;
+    }
+
+    .sect1_2, .sect2_2, .sect3_2 h2 {
+        font-size: 18px;
     }
 
     .sect2 {
@@ -886,6 +897,11 @@ footer {
     .sect3_1 img{
         width: 279px;
         height: 192px;
+    }
+
+    .main_project_stack {
+        flex-wrap: wrap;
+        width: 279px;
     }
 }
 
