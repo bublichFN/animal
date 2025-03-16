@@ -860,7 +860,7 @@ footer {
         padding: 32px;
     }
 
-    .sect1_2, .sect2_2, .sect3_2 h2 {
+    .sect1_2 h2, .sect2_2 h2, .sect3_2 h2 {
         font-size: 18px;
     }
 
@@ -873,8 +873,6 @@ footer {
     .sect2_1, .sect2_2 {
         width: 343px;
         height: auto;
-        
-  
     }
 
     .sect2_1 img{
@@ -902,6 +900,10 @@ footer {
     .main_project_stack {
         flex-wrap: wrap;
         width: 279px;
+    }
+
+    .sect1_2 img, .sect2_2 img, .sect3_2 img {
+        padding-bottom: 32px;
     }
 }
 
