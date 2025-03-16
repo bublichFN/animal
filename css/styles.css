@@ -674,8 +674,8 @@ footer {
 }
 
 .get_in_touch {
-    width: 122;
-    height: 28;
+    width: 122px;
+    height: 28px;
     padding-top: 4px;
     padding-right: 20px;
     padding-bottom: 4px;
@@ -841,26 +841,33 @@ footer {
         flex-direction: column;
     }
 
-    .sect1_1, .sect2_1, .sect3_1 {
+    .sect1_1,
+    .sect2_1,
+    .sect3_1 {
         border-radius: 12px 12px 0px 0px;
     }
 
-    .sect1_2, .sect2_2, .sect3_2 {
+    .sect1_2,
+    .sect2_2,
+    .sect3_2 {
         border-radius: 0px 0px 12px 12px;
     }
-    
-    .sect1_1, .sect1_2 {
+
+    .sect1_1,
+    .sect1_2 {
         width: 343px;
         height: auto;
     }
 
-    .sect1_1 img{
+    .sect1_1 img {
         height: auto;
         margin-top: 0px;
         padding: 32px;
     }
 
-    .sect1_2 h2, .sect2_2 h2, .sect3_2 h2 {
+    .sect1_2 h2,
+    .sect2_2 h2,
+    .sect3_2 h2 {
         font-size: 18px;
     }
 
@@ -869,13 +876,14 @@ footer {
         height: auto;
         flex-direction: column;
     }
-    
-    .sect2_1, .sect2_2 {
+
+    .sect2_1,
+    .sect2_2 {
         width: 343px;
         height: auto;
     }
 
-    .sect2_1 img{
+    .sect2_1 img {
         width: 279px;
         height: 192px;
     }
@@ -885,14 +893,15 @@ footer {
         height: auto;
         flex-direction: column;
     }
-    
-    .sect3_1, .sect3_2 {
+
+    .sect3_1,
+    .sect3_2 {
         width: 343px;
-        height: auto;        
-  
+        height: auto;
+
     }
 
-    .sect3_1 img{
+    .sect3_1 img {
         width: 279px;
         height: 192px;
     }
@@ -902,8 +911,37 @@ footer {
         width: 279px;
     }
 
-    .sect1_2 img, .sect2_2 img, .sect3_2 img {
-        padding-bottom: 32px;
+    .sect1_2 img,
+    .sect2_2 img,
+    .sect3_2 img {
+        margin-bottom: 32px;
     }
-}
 
+    .Testimonials {
+        height: auto;
+        padding-bottom: 64px;
+    }
+
+    .sections {
+        flex-direction: column;
+        gap: 24px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .section1 {
+        width: auto;
+        height: auto;
+    }
+
+    .email, .phone_number {
+        font-size: 18px;
+        gap: 16px;
+    }
+
+    .email img, .phone_number img {
+        width: 24px;
+        height: 24px;
+    }
+    
+}
